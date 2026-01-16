@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "mcp__jetbrains__list_directory_tree",
+      "WebSearch",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(composer php-cs)",
+      "Bash(php -l:*)",
+      "Bash(composer show:*)",
+      "Bash(composer phpstan:*)",
+      "Bash(grep:*)",
+      "Bash(vendor/bin/phpstan analyse:*)",
+      "Bash(composer php-cs-fix:*)",
+      "Bash(composer validate:*)"
+    ]
+  }
+}
